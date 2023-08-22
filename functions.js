@@ -39,6 +39,7 @@ function printRandomPopImg() {
         `<img src = "populist_images/verne el pais - pamela jilas.jpg" alt = "Verne el Pais 2020 (https://www.google.com/url?sa=i&url=https%3A%2F%2Fverne.elpais.com%2Fverne%2F2020%2F07%2F19%2Fmexico%2F1595114669_072603.html&psig=AOvVaw3MNoOcm2q8AS3sCZri1WmL&ust=1692822230441000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCNiw4q-M8YADFQAAAAAdAAAAABAE): Pamela Jilas, Chile">`,
         `<img src = "populist_images/getty images - javier milei 2023.jpg" alt = "Getty Images 2023 (https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn1.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcQN7X_MCYhWz9IBVljsGI1WGmWWYhZ25_P_roRNqnFVn41vTwbraR295Xnbt2MCdtiKQYhKye99rQ8TH9Q&psig=AOvVaw0QDhyHdaM3Rkq6LpGaL8Qt&ust=1692822260004000&source=images&cd=vfe&ved=0CBEQjhxqFwoTCLiKw8iM8YADFQAAAAAdAAAAABAD): Javier Milei, Argentina">`,
         `<img src = "populist_images/florianbasedmortimer rain epler.jpg" alt = "Twitter 2023 (https://twitter.com/BasedMortimer/status/1632461155988918276): Right-nationalist Rainn Epler, Estonia">`
+        `<img src = "populist_images/bloomberg milei.png" alt = "Bloomberg 2023 (https://www.bloomberg.com/news/articles/2023-03-15/inflation-at-100-boosts-javier-milei-in-2023-argentina-presidential-election?in_source=embedded-checkout-banner): Javier Milei, Argentina">`
     ];
     //var nbr = Math.floor(Math.random() * populist_imgs.length);
     var random_popimg = populist_imgs[Math.floor(Math.random() * populist_imgs.length)];
