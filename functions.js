@@ -47,7 +47,8 @@ function printRandomPopImg() {
     // print alt text
     var caption = document.createElement('span');
     var caption.innerHTML = random_popimage.alt;
-    //var random_popimg2 = random_popimg.appendChild(caption);
+    var random_popimg2 = random_popimg.appendChild(caption);
+    document.write(random_popimg2);
     print(caption.innerHTML);
-    //document.write(random_popimg2);
+    print(caption);
 }
