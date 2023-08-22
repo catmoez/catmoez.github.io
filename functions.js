@@ -44,11 +44,4 @@ function printRandomPopImg() {
     var random_popimg = populist_imgs[Math.floor(Math.random() * populist_imgs.length)];
     // print the random IMAGE
     document.write(random_popimg);
-    // print alt text
-    //var caption = document.createElement('span');
-    //var caption.innerHTML = random_popimage.alt;
-    //var random_popimg2 = random_popimg.appendChild(caption);
-    //document.write(random_popimg2);
-    //print(caption.innerHTML);
-    //print(caption);
 }
