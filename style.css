@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  margin: 0;
+  font-size: 150%;
+}
+
+.sidebar {
+  background-color: #f4f4f4;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  font-family: Kievit, "PT Sans", sans-serif;
+  color: #136176;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #136176;
+  font-family: Kievit, "PT Sans", sans-serif;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  margin-left: 270px;
+  /* Adjust to match sidebar width + padding */
+  padding-top: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 0;
+  width: calc(100% - 270px);
+  /* Ensure content fits alongside sidebar */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Kievit, "PT Sans", sans-serif;
+  letter-spacing: -.028em;
+}
+
+h1 {
+  color: #136176;
+  border-bottom: 2px solid #136176;
+}
+
+p,
+span,
+li,
+a,
+figcaption {
+  font-family: Kievit, "PT Sans", sans-serif;
+}
+
+a {
+  color: #136176
+}
+
+@font-face {
+  font-family: 'Kievit';
+  font-weight: 400;
+  font-style: normal;
+  src: url(https://pacha.dev/blog/fonts/kvn.eot?#iefix) format("embedded-opentype"), url(https://pacha.dev/blog/fonts/kvn.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'Kievit';
+  font-weight: 400;
+  font-style: italic;
+  src: url(https://pacha.dev/blog/fonts/kvi.eot?#iefix) format("embedded-opentype"), url(https://pacha.dev/blog/fonts/kvi.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'Kievit';
+  font-weight: 700;
+  font-style: normal;
+  src: url(https://pacha.dev/blog/fonts/kvb.eot?#iefix) format("embedded-opentype"), url(https://pacha.dev/blog/fonts/kvb.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'Kievit';
+  font-weight: 700;
+  font-style: italic;
+  src: url(https://pacha.dev/blog/fonts/kvbi.eot?#iefix) format("embedded-opentype"), url(https://pacha.dev/blog/fonts/kvbi.woff) format("woff")
+}
