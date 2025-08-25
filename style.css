@@ -18,7 +18,7 @@ body {
 
 .sidebar h2 {
   font-family: Kievit, "PT Sans", sans-serif;
-  color: #136176;
+  color: #3F48CC;
 }
 
 .sidebar ul {
@@ -32,7 +32,7 @@ body {
 
 .sidebar a {
   text-decoration: none;
-  color: #136176;
+  color: #3F48CC;
   font-family: Kievit, "PT Sans", sans-serif;
 }
 
@@ -62,8 +62,8 @@ h6 {
 }
 
 h1 {
-  color: #136176;
-  border-bottom: 2px solid #136176;
+  color: #3F48CC;
+  border-bottom: 2px solid #3F48CC;
 }
 
 p,
@@ -75,7 +75,7 @@ figcaption {
 }
 
 a {
-  color: #136176
+  color: #3F48CC
 }
 
 @font-face {
