@@ -16,8 +16,7 @@ body {
 
 .sidebar {
   background-color: #f4f4f4;
-  width: 150px; 
-  \* was 250*\
+  width: 250px; 
   padding: 15px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   height: 100vh;
