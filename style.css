@@ -33,7 +33,7 @@ body {
 
 .sidebar ul {
   list-style-type: none;
-  padding: 0;
+  padding: 8px;
 }
 
 .sidebar li {
@@ -51,7 +51,7 @@ body {
 }
 
 .main-content {
-  margin-left: 270px;
+  margin-left: 0;
   /* Adjust to match sidebar width + padding */
   padding-top: 0;
   padding-left: 60px;
