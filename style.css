@@ -4,6 +4,31 @@ body {
   font-size: 150%;
 }
 
+
+
+
+<!-- image grid - code https://www.w3schools.com/howto/howto_js_image_grid.asp -->
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create *three equal columns that sit next to each other */
+.column {
+  flex: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+<!-- end of image grid -->
+
+
+
+
 .sidebar {
   background-color: #f4f4f4;
   width: 250px;
